@@ -9,3 +9,8 @@ const encoder = new TextEncoder()
 
 const text = encoder.encode('Hello Again, Bruski')
 await Deno.writeFile('readme.txt', text)
+
+
+// Rename and Remove Files
+
+await Deno.rename('readme.txt', 'deleteme.txt')
