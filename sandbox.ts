@@ -13,4 +13,5 @@ await Deno.writeFile('readme.txt', text)
 
 // Rename and Remove Files
 
-await Deno.rename('readme.txt', 'deleteme.txt')
+await Deno.rename('readme.txt', 'deleteme.txt');
+await Deno.remove('deleteme.txt')
