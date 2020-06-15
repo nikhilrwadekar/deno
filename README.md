@@ -5,7 +5,7 @@ Runtime by the same guy who made NodeJS. A younger brother or sister of sorts to
 
 ## Features
 TS Support out of the box
-Secure by default (Needs permissions to: Read/Write files)
+Secure by default (Needs permissions to: Read/Write files) (Permissions at https://deno.land/manual/getting_started/permissions)
 Packages installed via imports, NOT npm!
 
 Run files from the web
