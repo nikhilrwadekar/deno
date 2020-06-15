@@ -13,3 +13,14 @@ Runtime by the same guy who made NodeJS. A younger brother or sister of sorts to
 ## Installation
 
 ```brew install deno```
+
+## Run App w/ Denon
+
+```deno install --allow-read --allow-run --allow-write --allow-net -f --unstable https://deno.land/x/denon/denon.ts```
+
+## Endpoints
+
+1. GET: /books
+2. GET: /book/:id
+3. POST: /books/
+4. DELETE: /books/:id
